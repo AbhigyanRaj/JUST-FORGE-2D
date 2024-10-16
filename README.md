@@ -17,18 +17,10 @@ Welcome to **Just Forge 2D**, a minimalist, powerful, and easy-to-use 2D game en
 
 ---
 
-## Preview
-
-Here’s a preview of the **Just Forge 2D** interface:
-
-![Preview](assets/preview.png)
-
----
-
 ## Contributors
 
-- **Abhigyann** - Developer and Designer  
-  Portfolio: [Abhigyann's Portfolio](https://yourportfolio.com)
+- **Abhigyann** - Web Developer.  
+  Portfolio: [Abhigyann's Portfolio](https://www.linkedin.com/in/abhigyan-raj-6211502a1/)
 
 ---
 
