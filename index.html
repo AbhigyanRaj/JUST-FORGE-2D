@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just Forge 2D</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* Custom style for gamepad icon */
+        .gamepad-icon {
+            width: 120px;
+            height: 120px;
+        }
+
+        /* Button shadow for a modern look */
+        .btn-modern {
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .btn-modern:hover {
+            transform: translateY(-3px);
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Footer hover effects */
+        .footer-link:hover {
+            color: #FF4C60;
+        }
+
+        .heart-icon {
+            color: #FF4C60;
+            transition: transform 0.3s ease;
+        }
+
+        .heart-icon:hover {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+
+<body class="bg-black text-white font-sans">
+    <!-- Main Container -->
+    <div class="flex flex-col items-center justify-center min-h-screen px-4">
+        <!-- Top Links -->
+        <div class="absolute top-0 left-0 p-4 md:p-6 flex flex-col space-y-4">
+            <a href="#" class="bg-gray-900 hover:bg-gray-800 text-white font-medium py-2 px-3 md:px-4 rounded-full btn-modern flex items-center justify-center space-x-2">
+                <i class="fab fa-github"></i>
+                <span>Source Code</span>
+            </a>
+            <a href="#" class="bg-gray-900 hover:bg-gray-800 text-white font-medium py-2 px-3 md:px-4 rounded-full btn-modern flex items-center justify-center space-x-2">
+                <i class="fas fa-bookmark"></i>
+                <span>Wiki</span>
+            </a>
+            <a href="#" class="bg-gray-900 hover:bg-gray-800 text-white font-medium py-2 px-3 md:px-4 rounded-full btn-modern flex items-center justify-center space-x-2">
+                <i class="fas fa-coffee"></i>
+                <span>Java Download</span>
+            </a>
+        </div>
+
+        <!-- Centered Content -->
+        <div class="text-center mt-16 md:mt-20 lg:mt-24">
+            <!-- Gamepad Icon -->
+            <img src="assests/game.png" alt="Gamepad Icon" class="gamepad-icon mx-auto mb-8">
+            
+            <!-- Title -->
+            <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold mb-2 tracking-tight">JUST FORGE 2D</h1>
+            <p class="text-md sm:text-lg text-gray-400 mb-2">Simple Powerful 2D Game Engine</p>
+            <p class="text-xs sm:text-sm md:text-base text-gray-500 mb-10">Built Using OpenGL and Java</p>
+            
+            <!-- Download Buttons -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-6 max-w-md lg:max-w-lg mx-auto">
+                <a href="#" class="bg-gray-900 hover:bg-gray-800 text-white font-semibold py-3 md:py-4 px-6 rounded-full btn-modern flex items-center justify-center space-x-2">
+                    <i class="fab fa-windows"></i>
+                    <span>Windows</span>
+                    <span class="text-xs font-normal">1.2</span>
+                </a>
+                <a href="#" class="bg-gray-900 hover:bg-gray-800 text-white font-semibold py-3 md:py-4 px-6 rounded-full btn-modern flex items-center justify-center space-x-2">
+                    <i class="fab fa-linux"></i>
+                    <span>Linux</span>
+                    <span class="text-xs font-normal">1.2</span>
+                </a>
+                <a href="#" class="bg-gray-900 hover:bg-gray-800 text-white font-semibold py-3 md:py-4 px-6 rounded-full btn-modern flex items-center justify-center space-x-2">
+                    <i class="fab fa-apple"></i>
+                    <span>Mac OS</span>
+                    <span class="text-xs font-normal">1.2</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w-full text-center py-4 mt-16 lg:mt-20">
+        <p class="text-xs sm:text-sm text-gray-400">
+            Made with <i class="fas fa-heart heart-icon"></i> by 
+            <a href="https://www.linkedin.com/in/abhigyan-raj-6211502a1/" target="_blank" class="footer-link text-gray-400 hover:text-pink-500 transition">Abhigyann</a>
+        </p>
+    </footer>
+
+</body>
+
+</html>
