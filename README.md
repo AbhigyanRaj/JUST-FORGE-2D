@@ -2,7 +2,9 @@
 
 ### Simple and Powerful 2D Game Engine | Built Using OpenGL and Java
 
-![Gamepad Icon](assests/game.png)
+<p align="center">
+  <img src="assests/game.png" alt="Gamepad Icon" width="200">
+</p>
 
 Welcome to **Just Forge 2D**, a minimalist, powerful, and easy-to-use 2D game engine built with **OpenGL** and **Java**. This project is designed for developers who want to create 2D games with efficiency, performance, and simplicity in mind.
 
@@ -27,4 +29,3 @@ Welcome to **Just Forge 2D**, a minimalist, powerful, and easy-to-use 2D game en
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
